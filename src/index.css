@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-medical-blue: var(--color-sky-600);
+  --color-medical-teal: var(--color-sky-500);
+  --color-medical-light: var(--color-slate-50);
+  --color-medical-dark: var(--color-slate-900);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+  }
+}
